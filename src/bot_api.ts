@@ -64,7 +64,7 @@ export type SyncData = {
 };
 
 export class CompendiumApiClient {
-  constructor(private url: string = "http://mentalisit.sytes.net:12345/compendium") {}
+  constructor(private url: string = "https://mentalisit.sytes.net:8443/compendium") {}
 
   /*
     Given a code from the bot %connect command (which has the format /[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}/)
